@@ -1,0 +1,85 @@
+body{
+    background:linear-gradient(rgba(0, 0, 0, 0.523),rgba(0,0,0,0.75)),url(img/loback.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+ h1{
+    color: antiquewhite;
+    text-align: center;
+    justify-content: center;
+   font-size:50px;
+}
+
+.background{
+     background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75),rgba(22, 31, 200, 0.606));
+    background-position: center;
+    height: 50vh;
+   width: 500px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+    transform:translate(-50%,-50%);
+
+    
+    animation: neon-border 3s ease-in-out infinite;
+}
+@keyframes neon-border{
+    0%{
+        box-shadow: 0 0 25px rgba(251, 0, 0, 0.778),0 0 40px rgba(13, 245, 245, 0.403);
+    }
+    25%{
+        box-shadow: 0 0 50px rgba(251, 0, 0, 0.778),0 0 80px rgba(13, 245, 245, 0.403);
+    }
+    50%{
+        box-shadow: 0 0 75px rgba(251, 0, 0, 0.778),0 0 120px rgba(13, 245, 245, 0.403);
+    }
+    75%{
+        box-shadow: 0 0 50px rgba(251, 0, 0, 0.778),0 0 80px rgba(13, 245, 245, 0.403);
+    }
+    100%{
+        box-shadow: 0 0 25px rgba(251, 0, 0, 0.778),0 0 40px rgba(13, 245, 245, 0.403);
+    
+    }
+}
+   input[type="email"]{
+    position: absolute;
+    top: 30%;
+    left: 26%;
+    height: 5%;
+    width: 50%;
+    border-radius: 100px;
+}
+
+input[type="password"]{
+ position: absolute;
+ top:50%;
+ left: 26%;
+ height: 5%;
+ width: 50%;
+ border-radius: 100px;
+}
+ .e .fa-solid {
+background-color:white;
+position: absolute;
+top: 31.5%;
+left: 20%;
+padding: 3px;
+border-radius: 10px;
+}
+ .fa-lock{
+background-color:white;
+position: absolute;
+top: 51.5%;
+left: 20%;
+padding: 3px;
+border-radius: 10px;
+}
+.login button{
+    position: absolute;
+    top: 70%;
+    left: 42%;
+    border-radius: 100px;
+    padding: 20px;
+}

@@ -1,0 +1,22 @@
+<!--JUST CODE-->
+<details>
+    <summary>ahmed</summary>
+    ahmed is gay
+</details>
+
+<hr>
+<label >prog</label>
+    <progress value="5" max="100"></progress>
+
+<!--GOOGLE SEARCH-->
+    <div class="container">
+        <form  action="https://www.google.com/search" method="get" class="search-bar"> 
+    <label>SEARCH:</label>
+    <input type="text" id="name"placeholder="type..." name="q" required >
+    <button><img src="img/search.png" width="20"height="20" alt=""></button>
+        </form>
+    </div>
+
+
+    <!--logos-->
+    <a href="https://www.flaticon.com/free-icons/email-blocker" title="email blocker icons">Email blocker icons created by Pixel perfect - Flaticon</a>
