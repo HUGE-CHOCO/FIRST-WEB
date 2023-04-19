@@ -1,3 +1,7 @@
+*{
+font-family: sans-serif;
+}
+
 body{
     background:linear-gradient(rgba(0, 0, 0, 0.523),rgba(0,0,0,0.75)),url(img/loback.jpg);
     background-size: cover;
@@ -21,25 +25,23 @@ body{
    top: 50%;
    left: 50%;
     transform:translate(-50%,-50%);
-
-    
     animation: neon-border 3s ease-in-out infinite;
 }
 @keyframes neon-border{
     0%{
-        box-shadow: 0 0 25px rgba(251, 0, 0, 0.778),0 0 40px rgba(13, 245, 245, 0.403);
+        box-shadow: 0 0 25px rgba(251, 0, 0, 0.778),0 0 40px rgba(13, 245, 245, 0.239);
     }
     25%{
-        box-shadow: 0 0 50px rgba(251, 0, 0, 0.778),0 0 80px rgba(13, 245, 245, 0.403);
+        box-shadow: 0 0 25px rgba(251, 0, 0, 0.778),0 0 80px rgba(13, 245, 245, 0.239);
     }
     50%{
-        box-shadow: 0 0 75px rgba(251, 0, 0, 0.778),0 0 120px rgba(13, 245, 245, 0.403);
+        box-shadow: 0 0 25px rgba(251, 0, 0, 0.778),0 0 120px rgba(13, 245, 245, 0.239);
     }
     75%{
-        box-shadow: 0 0 50px rgba(251, 0, 0, 0.778),0 0 80px rgba(13, 245, 245, 0.403);
+        box-shadow: 0 0 25px rgba(251, 0, 0, 0.778),0 0 80px rgba(13, 245, 245, 0.239);
     }
     100%{
-        box-shadow: 0 0 25px rgba(251, 0, 0, 0.778),0 0 40px rgba(13, 245, 245, 0.403);
+        box-shadow: 0 0 25px rgba(251, 0, 0, 0.778),0 0 40px rgba(13, 245, 245, 0.239);
     
     }
 }
@@ -59,27 +61,80 @@ input[type="password"]{
  height: 5%;
  width: 50%;
  border-radius: 100px;
+ background: transparent;
 }
+ 
  .e .fa-solid {
-background-color:white;
+background-color:rgba(22, 31, 200, 0.606);
 position: absolute;
 top: 31.5%;
 left: 20%;
-padding: 3px;
-border-radius: 10px;
+padding: 4px;
+border-radius: 15px;
 }
  .fa-lock{
-background-color:white;
+background-color:rgba(22, 31, 200, 0.606);
 position: absolute;
 top: 51.5%;
-left: 20%;
-padding: 3px;
+left: 20.3%;
+padding: 4px;
 border-radius: 10px;
 }
-.login button{
+
+ div .login button{
     position: absolute;
     top: 70%;
-    left: 42%;
-    border-radius: 100px;
+    left: 41.2%;
+    border:2px;
+    border-radius: 30px;
     padding: 20px;
+    background-color: rgba(0, 0, 0, 0.418);
+    color:rgb(22, 31, 200);
+    transition: 1s;
 }
+div .login button:hover{
+    position: absolute;
+    top: 70%;
+    left: 41%;
+    border:2px;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: rgb(22, 31, 200);
+    color:rgb(0, 0, 0);
+}
+.pages  {
+    position: absolute;
+    top: 22.8%;
+    left: 54.8%;
+    display:flex;
+}
+.pages button{
+    
+    background: linear-gradient(rgba(22, 31, 200, 0.445),rgba(0,0,0,0.75),rgba(0,0,0,0.75));
+    height: 30px;
+    color: aliceblue;
+    animation: neon-border 3s ease-in-out infinite;
+    border: 2px;
+    transition: 0.5s;
+}
+.pages button:hover{
+  
+color:cornflowerblue;
+padding: 2px;
+border-radius: 10px;
+position:relative;
+}
+.pages button:active{
+  background: cornflowerblue;
+    color:rgba(0,0,0,0.75);
+    }
+.block{
+    position: absolute;
+    top: 83%;
+   
+}
+ div video{
+    height: 200px;
+    width: 100%;
+}
+
