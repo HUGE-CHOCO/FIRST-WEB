@@ -3,10 +3,10 @@ font-family: sans-serif;
 }
 
 body{
-    background:linear-gradient(rgba(0, 0, 0, 0.523),rgba(0,0,0,0.75)),url(img/loback.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.523),rgba(216, 104, 231, 0.737)),url(img/HMOSH.png);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
 }
 
  h1{
@@ -17,51 +17,62 @@ body{
 }
 
 .background{
-     background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75),rgba(22, 31, 200, 0.606));
-    background-position: center;
-    height: 50vh;
-   width: 500px;
-   position: absolute;
-   top: 50%;
-   left: 50%;
-    transform:translate(-50%,-50%);
-    animation: neon-border 3s ease-in-out infinite;
+    background:linear-gradient(125deg, rgba(51, 233, 255 ),rgba(208, 18, 246));
+         
+        background-position: center;
+        height: 50vh;
+       width: 500px;
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       border-radius: 50px;
+        transform:translate(-50%,-50%);
+        animation: neon-border 3s ease-in-out infinite;
 }
 @keyframes neon-border{
     0%{
-        box-shadow: 0 0 25px rgba(251, 0, 0, 0.778),0 0 40px rgba(13, 245, 245, 0.239);
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.416),0 0 40px rgba(13, 245, 245, 0.239);
     }
     25%{
-        box-shadow: 0 0 25px rgba(251, 0, 0, 0.778),0 0 80px rgba(13, 245, 245, 0.239);
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.416),0 0 80px rgba(13, 245, 245, 0.239);
     }
     50%{
-        box-shadow: 0 0 25px rgba(251, 0, 0, 0.778),0 0 120px rgba(13, 245, 245, 0.239);
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.416),0 0 120px rgba(13, 245, 245, 0.239);
     }
     75%{
-        box-shadow: 0 0 25px rgba(251, 0, 0, 0.778),0 0 80px rgba(13, 245, 245, 0.239);
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.416),0 0 80px rgba(13, 245, 245, 0.239);
     }
     100%{
-        box-shadow: 0 0 25px rgba(251, 0, 0, 0.778),0 0 40px rgba(13, 245, 245, 0.239);
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.416),0 0 40px rgba(13, 245, 245, 0.239);
     
     }
 }
    input[type="email"]{
+    border: none;
+    outline: none;
     position: absolute;
     top: 30%;
     left: 26%;
     height: 5%;
     width: 50%;
-    border-radius: 100px;
+    border-bottom: 1px solid white;
+    color: aliceblue;
+    background: transparent;
+    font-size: 16px;
 }
 
-input[type="password"]{
+ .login input[type="password"]{
  position: absolute;
  top:50%;
  left: 26%;
  height: 5%;
  width: 50%;
- border-radius: 100px;
- background: transparent;
+ border: none;
+outline: none;
+border-bottom: 1px solid white;
+color: aliceblue;
+background: transparent;
+font-size: 16px;
 }
  
  .e .fa-solid {
@@ -88,7 +99,7 @@ border-radius: 10px;
     border:2px;
     border-radius: 30px;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.418);
+    background-color:rgba(51, 233, 255 );
     color:rgb(22, 31, 200);
     transition: 1s;
 }
@@ -99,18 +110,20 @@ div .login button:hover{
     border:2px;
     border-radius: 30px;
     padding: 20px;
-    background-color: rgb(22, 31, 200);
+    background-color: rgba(208, 18, 246);
     color:rgb(0, 0, 0);
 }
 .pages  {
-    position: absolute;
-    top: 22.8%;
-    left: 54.8%;
-    display:flex;
+    background-position: center;
+        position: absolute;
+        top: 22.8%;
+        left: 48.3%;
+        display:flex;
+        text-transform: uppercase
 }
 .pages button{
     
-    background: linear-gradient(rgba(22, 31, 200, 0.445),rgba(0,0,0,0.75),rgba(0,0,0,0.75));
+    background:linear-gradient(125deg, rgba(51, 233, 255 ),rgba(208, 18, 246));
     height: 30px;
     color: aliceblue;
     animation: neon-border 3s ease-in-out infinite;
@@ -119,10 +132,10 @@ div .login button:hover{
 }
 .pages button:hover{
   
-color:cornflowerblue;
-padding: 2px;
-border-radius: 10px;
-position:relative;
+    color:black;
+    padding: 2px;
+    border-radius: 10px;
+    position:relative;
 }
 .pages button:active{
   background: cornflowerblue;

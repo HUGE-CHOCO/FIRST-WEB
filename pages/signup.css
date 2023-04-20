@@ -5,7 +5,7 @@
     }
     
     body{
-        background:linear-gradient(rgba(0, 0, 0, 0.523),rgba(0,0,0,0.75)),url(../img/loback.jpg);
+        background:linear-gradient(rgba(0, 0, 0, 0.523),rgba(216, 104, 231, 0.737)),url(../img/HMOSH.png);
         background-size: cover;
         background-position: center;
         height: 100vh;
@@ -19,71 +19,91 @@
     }
     
     .background{
-         background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75),rgba(22, 31, 200, 0.606));
+         background:linear-gradient(125deg, rgba(51, 233, 255 ),rgba(208, 18, 246));
+         
         background-position: center;
         height: 50vh;
        width: 500px;
        position: absolute;
        top: 50%;
        left: 50%;
+       border-radius: 50px;
         transform:translate(-50%,-50%);
         animation: neon-border 3s ease-in-out infinite;
     }
     @keyframes neon-border{
         0%{
-            box-shadow: 0 0 25px rgba(251, 0, 0, 0.778),0 0 40px rgba(13, 245, 245, 0.239);
+            box-shadow: 0 0 50px rgba(0, 0, 0, 0.416),0 0 40px rgba(13, 245, 245, 0.239);
         }
         25%{
-            box-shadow: 0 0 25px rgba(251, 0, 0, 0.778),0 0 80px rgba(13, 245, 245, 0.239);
+            box-shadow: 0 0 50px rgba(0, 0, 0, 0.416),0 0 80px rgba(13, 245, 245, 0.239);
         }
         50%{
-            box-shadow: 0 0 25px rgba(251, 0, 0, 0.778),0 0 120px rgba(13, 245, 245, 0.239);
+            box-shadow: 0 0 50px rgba(0, 0, 0, 0.416),0 0 120px rgba(13, 245, 245, 0.239);
         }
         75%{
-            box-shadow: 0 0 25px rgba(251, 0, 0, 0.778),0 0 80px rgba(13, 245, 245, 0.239);
+            box-shadow: 0 0 50px rgba(0, 0, 0, 0.416),0 0 80px rgba(13, 245, 245, 0.239);
         }
         100%{
-            box-shadow: 0 0 25px rgba(251, 0, 0, 0.778),0 0 40px rgba(13, 245, 245, 0.239);
+            box-shadow: 0 0 50px rgba(0, 0, 0, 0.416),0 0 40px rgba(13, 245, 245, 0.239);
         
         }
     }
-       input[type="email"]{
+input[type=text] {
+        
+        position: absolute;
+        top: 26%;
+        left: 26%;
+        height: 5%;
+        width: 50%;
+        font-size: 16px;
+       color: aliceblue;
+       border: none;
+       border-bottom: 1px solid white;
+       outline: none;
+       background: transparent;
+       
+    }
+    label {
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        padding: 10px;
+        font-size: 16px;
+        color: gray;
+        pointer-events: none;
+        transition: all 0.3s;
+      }
+      
+    input[type=email]{
         position: absolute;
         top: 45%;
         left: 26%;
         height: 5%;
         width: 50%;
-        border-radius: 100px;
+        font-size: 16px;
+        color: aliceblue;
+        border: none;
+        border-bottom: 1px solid white;
+        outline: none;
+        background: transparent;
+       
     }
-    input[type="email"]{
-        position: absolute;
-        top: 45%;
-        left: 26%;
-        height: 5%;
-        width: 50%;
-        border-radius: 100px;
-        display: inline;
-    }
-    input[type="password"]{
+    input[type=password]{
      position: absolute;
      top:64%;
      left: 26%;
      height: 5%;
      width: 50%;
-     border-radius: 100px;
-    }
-    #text2
-    {
-        position: absolute;
-        top: 26%;
-        left: 26%;
-        height: 5%;
-     width: 50%;
-     border-radius: 100px;
-        
+     font-size: 16px;
+     color: aliceblue;
+     border: none;
+     border-bottom: 1px solid white;
+     outline: none;
+     background: transparent;
     }
     .fa-file-signature  {
-        background-color:rgba(22, 31, 200, 0.606);
+       
        position: absolute;
        top: 27%;
        left: 20%;
@@ -91,7 +111,7 @@
        border-radius: 10px;
        }
      .e .fa-solid {
-    background-color:rgba(22, 31, 200, 0.606);
+    
     position: absolute;
     top: 46%;
     left: 20%;
@@ -99,7 +119,7 @@
     border-radius: 15px;
     }
      .fa-lock{
-    background-color:rgba(22, 31, 200, 0.606);
+    
     position: absolute;
     top: 65%;
     left: 20.4%;
@@ -111,11 +131,11 @@
      div .login button{
         position: absolute;
         top: 80%;
-        left: 41%;
+        left: 41.2%;
         border:2px;
         border-radius: 30px;
         padding: 20px;
-        background-color: rgba(0, 0, 0, 0.418);
+        background-color:rgba(51, 233, 255 );
         color:rgb(22, 31, 200);
         transition: 1s;
     }
@@ -126,19 +146,21 @@
         border:2px;
         border-radius: 30px;
         padding: 20px;
-        background-color: rgb(22, 31, 200);
+        background-color: rgba(208, 18, 246);
         color:rgb(0, 0, 0);
     }
     .pages  {
+        background-position: center;
         position: absolute;
         top: 22.8%;
-        left: 54.91%;
+        left: 48.3%;
         display:flex;
         text-transform: uppercase
+        
     }
     .pages button{
         
-        background: linear-gradient(rgba(22, 31, 200, 0.445),rgba(0,0,0,0.75),rgba(0,0,0,0.75));
+        background:linear-gradient(125deg, rgba(51, 233, 255 ),rgba(208, 18, 246));
         height: 30px;
         color: aliceblue;
         animation: neon-border 3s ease-in-out infinite;
@@ -147,7 +169,7 @@
     }
     .pages button:hover{
       
-    color:cornflowerblue;
+    color:black;
     padding: 2px;
     border-radius: 10px;
     position:relative;
