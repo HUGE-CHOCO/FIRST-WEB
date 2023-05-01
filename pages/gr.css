@@ -51,4 +51,18 @@ h1{
     margin: 0 50px 50px 0;
     
 }
-
+@media screen and (max-width:1366px)
+{
+    .text {
+        position: absolute;
+       top:23%;
+        left:25%;
+        font-size: 55px;
+    }
+    .conatiner{
+        position: absolute;
+        top:50%;
+        left:10%;
+        
+    }
+}

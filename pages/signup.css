@@ -3,7 +3,6 @@
 *{
     font-family: sans-serif;
     }
-    
     body{
         background:linear-gradient(rgba(0, 0, 0, 0.523),rgba(216, 104, 231, 0.737)),url(../img/HMOSH.png);
         background-size: cover;
@@ -178,6 +177,18 @@ input[type=text] {
       background: cornflowerblue;
         color:rgba(0,0,0,0.75);
         }
-    
+    @media screen and (max-width:1366px)
+{
+    .background{
+        
+        width:400px;
+        height: 90vh;
+    }
+    .pages {
+        position: absolute;
+        top:0.6%;
+        left:46%
+    }
+}
     
     

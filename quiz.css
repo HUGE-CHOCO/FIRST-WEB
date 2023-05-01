@@ -1,3 +1,4 @@
+
 *{
 font-family: sans-serif;
 }
@@ -47,7 +48,7 @@ body{
     
     }
 }
-   input[type="email"]{
+   input[type="text"]{
     border: none;
     outline: none;
     position: absolute;
@@ -59,9 +60,29 @@ body{
     color: aliceblue;
     background: transparent;
     font-size: 16px;
+    transition: 0.5s ease-in-out;
+}
+  label{
+position: absolute;
+top:31.5%;
+left:27%;
+pointer-events: none;
+transition: all 0.5s ease;
+}
+ input:focus ~ label
+ {
+    transform: translateY(-20px) scale(0.8);
+   
+}
+ input:valid~label{
+    transform: translateY(-20px) scale(0.8);
 }
 
- .login input[type="password"]{
+input:focus{
+    border-bottom: 1px solid purple;
+    transition: 0.5s ease-in-out;
+}
+ input[type="password"]{
  position: absolute;
  top:50%;
  left: 26%;
@@ -141,13 +162,16 @@ div .login button:hover{
   background: cornflowerblue;
     color:rgba(0,0,0,0.75);
     }
-.block{
-    position: absolute;
-    top: 83%;
-   
-}
- div video{
-    height: 200px;
-    width: 100%;
-}
 
+    @media screen and (max-width:1366px) {
+    .background{
+        
+        width:400px;
+        height: 90vh;
+    }
+    .pages {
+        position: absolute;
+        top:0.6%;
+        left:46%
+    }
+    }

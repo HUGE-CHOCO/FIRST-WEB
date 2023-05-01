@@ -16,7 +16,7 @@ h2{
    top: 5%;
    font-size:50px;
 }
-h1{
+.text{
     text-align: center;
     position: absolute;
     top: 35%;
@@ -24,7 +24,7 @@ h1{
     left: 32%;
     color: aliceblue;
 }
-p{
+.parg{
     color: aliceblue;
     text-align: center;
     position: absolute;
@@ -80,4 +80,26 @@ p{
     width: 10%;
     
     
+}
+@media screen and (max-width:1366px)
+{
+    .text {
+        position: absolute;
+       top:30%;
+        left:20%;
+    }
+    .parg{
+        position: absolute;
+        left:32%;
+        top:50%;
+    }
+    .conatiner{
+        position: absolute;
+        top:65%;
+        left:18%;
+        
+    }
+    .conatiner ul li{
+        font-size: 20px;
+    }
 }
